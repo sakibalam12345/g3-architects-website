@@ -68,3 +68,30 @@ border: 0;
         flex-direction: column;
     }
 }
+/* header section ends */
+main{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.asd{
+    color:  #727272;
+font-size: 45px;
+font-weight: 500;
+}
+.llk{
+    color:  #727272;
+font-weight: 400;
+}
+.team-container{
+    display: flex;
+    align-items: center;
+}
+.img-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1.5rem;
+}
+.img-side-des{
+    padding-left: 70px;
+    padding-right: 70px;
+}
