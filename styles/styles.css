@@ -26,11 +26,15 @@ nav li{
     color:  #424242;
     font-weight: 500;
 }
+.banner-container{
+    max-width: 70%;
+    margin: 0 auto;
+}
 .banner-des{
-    max-width: 800px;
+   
     text-align: center;
-    margin: o auto;
-    padding-left: 95px;
+    
+    /* padding-left: 95px; */
     padding-bottom: 10px;
     /* justify-content: center; */
 }
@@ -59,7 +63,7 @@ border: 0;
 
 /* header section ends */
 main{
-    max-width: 1440px;
+    max-width: 80%;
     margin: 70px auto;
 }
 .asd{
@@ -150,8 +154,10 @@ font-weight: 600;
 
 
 
-
 @media screen and (max-width:576px) {
+    .banner-container{
+        max-width: 300px;
+    }
     header{
         padding: 20px;
     }
