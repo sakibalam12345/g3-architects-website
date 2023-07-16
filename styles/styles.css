@@ -136,9 +136,46 @@ font-weight: 600;
     justify-content: space-evenly;
     padding-top: 35px;
 }
+/* feature section */
+.features-container{
+    display: flex;
+    margin-top: 60px;
+    gap: 80px;
+}
+.feater-title-con{
+    padding-bottom: 150px;
+}
+.feature-card{
+    border-radius: 8px;
+background: #FFF;
+box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+padding-bottom: 50px;
+text-align: center;
+}
+.feater-bordar{
+    border-left: 5px solid orange;
+    padding-left: 20px;
+}
+.ten-year-badge{
+    border-radius: 8px;
+background: #FF900E;
+    width: 350px;
+    /* height: 200px; */
+    color: white;
+    text-align: center;
+    padding: 35px 0;
+    position: relative;
+    bottom: 75px;
+    right: 75px;
+}
+.badge-title{
+    color: #FFF;
 
+font-size: 1.8rem;
 
+font-weight: 500;
 
+}
 
 
 
@@ -193,5 +230,11 @@ font-weight: 600;
     .sponsor-img{
         flex-direction: column;
         gap: 35px;
+    }
+    .features-container{
+        flex-direction: column;
+    }
+    .feature-img img{
+        width: 100%;
     }
 }
