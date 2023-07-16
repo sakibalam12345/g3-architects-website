@@ -126,6 +126,16 @@ font-size: 1rem;
 font-weight: 600;
 
 }
+/* sponsor section starts here */
+.sponsor-container{
+    text-align: center;
+    padding-top: 20px;
+}
+.sponsor-img{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 35px;
+}
 
 
 
@@ -176,5 +186,12 @@ font-weight: 600;
     }
     .banner-title{
         font-size: 3rem;
+    }
+    .card-container{
+        flex-direction: column;
+    }
+    .sponsor-img{
+        flex-direction: column;
+        gap: 35px;
     }
 }
